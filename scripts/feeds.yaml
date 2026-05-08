@@ -1,0 +1,63 @@
+# Brain RSS Feed Subscriptions
+# Used by scripts/rss_scan.py
+
+feeds:
+  # === AI Agent / LLM 前沿 ===
+  - name: Simon Willison
+    feed_url: https://simonwillison.net/atom/everything/
+    category: ai-agent
+
+  - name: Anthropic Research
+    feed_url: https://www.anthropic.com/research/rss.xml
+    category: ai-agent
+
+  - name: Hacker News AI
+    feed_url: https://hnrss.org/newest?q=AI+agent
+    category: ai-agent
+
+  - name: r/LocalLLaMA
+    feed_url: https://www.reddit.com/r/LocalLLaMA/.rss
+    category: ai-agent
+
+  - name: Latent Space
+    feed_url: https://www.latent.space/feed
+    category: ai-agent
+
+  - name: Karpathy
+    feed_url: https://karpathy.ai/feed.xml
+    category: ai-agent
+
+  # === 移动端 + AI ===
+  - name: Android Developers Blog
+    feed_url: https://android-developers.googleblog.com/atom.xml
+    category: mobile
+
+  - name: Flutter Medium
+    feed_url: https://medium.com/feed/flutter
+    category: mobile
+
+  # === 独立开发 / 变现 ===
+  - name: Indie Hackers
+    feed_url: https://www.indiehackers.com/feed.xml
+    category: indie-dev
+
+  - name: r/SideProject
+    feed_url: https://www.reddit.com/r/SideProject/.rss
+    category: indie-dev
+
+  - name: Product Hunt
+    feed_url: https://www.producthunt.com/feed?category=artificial-intelligence
+    category: indie-dev
+
+  # === 中文 ===
+  - name: 少数派
+    feed_url: https://sspai.com/feed
+    category: chinese
+
+  - name: 机器之心
+    feed_url: https://www.jiqizhixin.com/rss/explore
+    category: chinese
+
+  - name: InfoQ AI
+    feed_url: https://www.infoq.cn/feed
+    category: chinese
