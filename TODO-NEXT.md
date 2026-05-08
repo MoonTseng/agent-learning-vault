@@ -1,52 +1,26 @@
-# Brain vault — 下次继续做的事
+# Brain vault — 状态追踪
 
-上下文快照（2026-05-07）：
-- vault 本地已搭好：~/Project/brain/，git init + 首次 commit 完成（main 分支）
-- remote 已加：https://github.com/MoonTseng/brain.git（用户在 GitHub 手建私库）
-- Hermes obsidian skill 已能读写 vault（OBSIDIAN_VAULT_PATH 已写入 ~/.hermes/.env）
+上下文快照（2026-05-08）：
+- vault 本地搭好：~/Project/brain/，已推送 GitHub (MoonTseng/brain)
+- git 身份：MoonTseng <MoonTseng@users.noreply.github.com>
+- Python RSS scanner 替代 blogwatcher-cli（.venv + feedparser）
+- 14 个订阅源配置在 scripts/feeds.yaml
+- 首次扫描完成：235 篇文章入库 02-Sources/Inbox/
+- Hermes cronjob 已配置：
+  - brain-daily-rss-scan (每日 08:00)：no_agent 脚本模式
+  - brain-weekly-digest (每周日 20:00)：LLM 总结周报
 
-还没做：
+## ✅ 已完成
+1. ✅ brain 仓库 local git 身份配置（MoonTseng + noreply email）
+2. ✅ 历史 commit 改写为新身份 + force push
+3. ✅ RSS 扫描方案落地（Python 脚本，支持代理）
+4. ✅ 14 源订阅 + 首次扫描
+5. ✅ 每日 RSS cronjob
+6. ✅ 每周周报 cronjob
 
-1. gh auth login
-   ```
-   gh auth login -h github.com -p https -w
-   ```
-   - GitHub.com → HTTPS → Authenticate Git → Yes
-   - 切到 MoonTseng 账号授权
-   - 目的：把 credential.helper 配成 osxkeychain，gitlab.intsig.net 的凭据不会被碰
-
-2. brain 仓库单独配 local git 身份（避免公司邮箱出现在个人开源历史）
-   - 用户需先去 https://github.com/settings/emails 看自己的 noreply 邮箱（格式：{id}+MoonTseng@users.noreply.github.com）
-   - 或同意直接用公司邮箱
-   ```
-   cd ~/Project/brain
-   git config user.name  "MoonTseng"
-   git config user.email "<noreply 邮箱>"
-   # 如果第一次 commit 用的是公司邮箱，想改掉需要 git commit --amend --reset-author
-   ```
-
-3. 首次推送
-   ```
-   cd ~/Project/brain
-   git push -u origin main
-   ```
-
-4. 安装 blogwatcher-cli + bootstrap 订阅
-   - 安装：`go install github.com/JulienTant/blogwatcher-cli/cmd/blogwatcher-cli@latest` 或 brew 下载 binary
-   - 订阅清单见 02-Sources/_subscription-list.md 的 bootstrap 代码块
-
-5. 两个 cronjob
-   - 每日 08:00：blogwatcher-cli scan → 用 LLM 给新文章评分+分类 → > 7 分的写入 02-Sources/Inbox/
-   - 每周日 20:00：周报，扫 Inbox 最近 7 天 + Ideas pipeline 流转情况，生成到 06-Daily/
-
-## 骨架结构参考
-
-```
-01-MOCs/        Home, AI-Agents, Mobile-Dev-AI, Monetization
-02-Sources/     Inbox (待分拣), Blogs (已归档), _subscription-list.md
-03-Notes/       Skills, MCPs, Agents, Mobile-AI, Concepts
-04-Projects/    短期项目
-05-Ideas/       Seeds → Validating → Building → Shipped/Killed + 00-Pipeline.md
-06-Daily/       日志
-_templates/     skill-note, mcp-note, idea-note, daily-note
-```
+## 🔜 下一步可做
+1. ollama 跑起来后，去掉 --no-llm，启用 LLM 评分（SCORE_THRESHOLD=7 过滤噪音）
+2. 手动往 05-Ideas/Seeds/ 放几个 idea 笔记，让周报有内容可报
+3. 探索 Obsidian 模板联动（在 Obsidian 中打开 vault、配 Dataview 查看 Inbox）
+4. 加更多订阅源（个人博客、Newsletter 等）
+5. 实现 "Inbox → Notes 归档" 流程（读完标记 → 移入 03-Notes/ 对应子目录）
