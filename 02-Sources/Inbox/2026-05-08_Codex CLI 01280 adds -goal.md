@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "Codex CLI 0.128.0 adds -goal"
 url: "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything"
 published: "2026-04-30T23:23:17+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Codex CLI加入目标循环功能，支持自动迭代直到目标完成，是Agent工具的实质升级"
 ---
 
 # Codex CLI 0.128.0 adds -goal

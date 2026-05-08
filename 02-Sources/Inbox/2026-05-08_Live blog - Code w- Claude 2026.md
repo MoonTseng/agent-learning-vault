@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "Live blog - Code w- Claude 2026"
 url: "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything"
 published: "2026-05-06T15:58:27+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Anthropic官方Code w/ Claude 2026大会实时直播，涵盖Claude代码能力最新进展"
 ---
 
 # Live blog - Code w- Claude 2026

@@ -3,9 +3,11 @@ source: "r/SideProject"
 title: "Mech engineer built a kids party planning site during maternity leave — would love honest feedback"
 url: "https://www.reddit.com/r/SideProject/comments/1t72a99/mech_engineer_built_a_kids_party_planning_site/"
 published: "2026-05-08T08:55:52+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: monetize
+takeaway: "非技术背景独立开发者用AI工具快速交付SaaS产品，有个人变现参考价值但缺乏深度"
 ---
 
 # Mech engineer built a kids party planning site during maternity leave — would love honest feedback

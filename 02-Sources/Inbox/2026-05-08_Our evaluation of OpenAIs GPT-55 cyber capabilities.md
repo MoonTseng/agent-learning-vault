@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "Our evaluation of OpenAI's GPT-5.5 cyber capabilities"
 url: "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything"
 published: "2026-04-30T23:03:24+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: research
+takeaway: "GPT-5.5网络安全能力评估，与Claude Mythos相当且已公开可用，了解LLM安全边界"
 ---
 
 # Our evaluation of OpenAI's GPT-5.5 cyber capabilities

@@ -3,9 +3,11 @@ source: "Hacker News AI"
 title: "Show HN - Costanza – an autonomous AI agent that can't be turned off"
 url: "https://ahrussell.com/writing/costanza/"
 published: "Wed, 06 May 2026 15:50:59 +0000"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: agent
+takeaway: "链上自主Agent新范式：LLM+智能合约+硬件证明，突破传统控制边界"
 ---
 
 # Show HN - Costanza – an autonomous AI agent that can't be turned off

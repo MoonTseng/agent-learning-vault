@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "GitHub Repo Stats"
 url: "https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything"
 published: "2026-05-07T07:25:14+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Simon Willison 的实用小工具，展示 GitHub 仓库统计数据，适合开发者参考"
 ---
 
 # GitHub Repo Stats

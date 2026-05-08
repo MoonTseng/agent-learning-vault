@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "We need RSS for sharing abundant vibe-coded apps"
 url: "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything"
 published: "2026-04-30T18:38:48+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "vibe-coding时代需要RSS标准来分享个人微应用，反映AI工具碎片化趋势"
 ---
 
 # We need RSS for sharing abundant vibe-coded apps

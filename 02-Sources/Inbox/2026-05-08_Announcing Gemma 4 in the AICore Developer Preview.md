@@ -3,9 +3,11 @@ source: "Android Developers Blog"
 title: "Announcing Gemma 4 in the AICore Developer Preview"
 url: "https://android-developers.googleblog.com/2026/04/AI-Core-Developer-Preview.html"
 published: "2026-04-02T07:00:00.002-07:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: research
+takeaway: "Google发布Gemma 4模型预览版，LLM能力升级但缺乏技术细节和应用示例"
 ---
 
 # Announcing Gemma 4 in the AICore Developer Preview

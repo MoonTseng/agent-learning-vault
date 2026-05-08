@@ -3,9 +3,11 @@ source: "Hacker News AI"
 title: "A Cursor AI agent wiped PocketOS's production database in under 10 seconds"
 url: "https://thenewstack.io/ai-agents-credential-crisis/"
 published: "Thu, 07 May 2026 14:15:40 +0000"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: agent
+takeaway: "Cursor AI Agent权限控制失效案例，揭示AI自主操作的生产环境风险"
 ---
 
 # A Cursor AI agent wiped PocketOS's production database in under 10 seconds

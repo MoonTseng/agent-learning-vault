@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "Behind the Scenes Hardening Firefox with Claude Mythos Preview"
 url: "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything"
 published: "2026-05-07T17:56:25+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: research
+takeaway: "Claude Mythos在安全审计中的实战案例，展示LLM在代码漏洞检测中的价值"
 ---
 
 # Behind the Scenes Hardening Firefox with Claude Mythos Preview

@@ -3,9 +3,11 @@ source: "r/SideProject"
 title: "I built a Claude Code skill that acts as my AI video editor"
 url: "https://www.reddit.com/r/SideProject/comments/1t6wzy5/i_built_a_claude_code_skill_that_acts_as_my_ai/"
 published: "2026-05-08T04:05:00+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Claude Code实战案例：自动化视频编辑工具，展示Agent赋能个人变现的具体路径"
 ---
 
 # I built a Claude Code skill that acts as my AI video editor

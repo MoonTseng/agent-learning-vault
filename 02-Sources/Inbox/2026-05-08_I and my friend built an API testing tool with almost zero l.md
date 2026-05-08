@@ -3,9 +3,11 @@ source: "r/SideProject"
 title: "I and my friend built an API testing tool with almost zero learning curve for developers import Postman collections, web + desktop support. Need honest feedback before full launch"
 url: "https://www.reddit.com/r/SideProject/comments/1t6zvyi/i_and_my_friend_built_an_api_testing_tool_with/"
 published: "2026-05-08T06:38:43+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "API测试工具,Postman替代品,低学习曲线,但缺乏差异化和商业化亮点"
 ---
 
 # I and my friend built an API testing tool with almost zero learning curve for developers import Postman collections, web + desktop support. Need honest feedback before full launch

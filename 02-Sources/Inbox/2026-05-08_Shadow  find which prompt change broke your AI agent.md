@@ -3,9 +3,11 @@ source: "Hacker News AI"
 title: "Shadow – find which prompt change broke your AI agent"
 url: "https://github.com/manav8498/Shadow"
 published: "Wed, 06 May 2026 19:50:15 +0000"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "AI Agent调试工具，快速定位prompt变更导致的性能退化，实用工程方案"
 ---
 
 # Shadow – find which prompt change broke your AI agent

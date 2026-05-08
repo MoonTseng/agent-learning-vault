@@ -3,9 +3,11 @@ source: "Hacker News AI"
 title: "Show HN - Adam – An embeddable cross-platform AI agent library"
 url: "https://github.com/sqliteai/adam"
 published: "Wed, 06 May 2026 12:56:29 +0000"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: agent
+takeaway: "开源AI Agent库，跨平台可嵌入，但缺乏核心创新和应用案例展示。"
 ---
 
 # Show HN - Adam – An embeddable cross-platform AI agent library

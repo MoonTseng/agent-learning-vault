@@ -3,9 +3,11 @@ source: "r/LocalLLaMA"
 title: "AMA Announcement - Nous Research, The Opensource Lab Behind Hermes Agent (Wednesday, 8AM-11AM PST)"
 url: "https://www.reddit.com/r/LocalLLaMA/comments/1suw9on/ama_announcement_nous_research_the_opensource_lab/"
 published: "2026-04-24T23:52:19+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: agent
+takeaway: "Nous Research开源Agent工具AMA，深入了解Hermes Agent技术细节的难得机会"
 ---
 
 # AMA Announcement - Nous Research, The Opensource Lab Behind Hermes Agent (Wednesday, 8AM-11AM PST)

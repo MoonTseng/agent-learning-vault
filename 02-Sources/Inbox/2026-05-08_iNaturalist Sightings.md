@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "iNaturalist Sightings"
 url: "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything"
 published: "2026-05-01T19:35:41+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "用Claude Code快速构建iNaturalist数据聚合工具，展示AI辅助开发的实用案例"
 ---
 
 # iNaturalist Sightings

@@ -3,9 +3,11 @@ source: "r/SideProject"
 title: "Built a free tool to measure how often AI search engines mention your brand. 3 months in, not sure if it’s a real product or just an interesting research project."
 url: "https://www.reddit.com/r/SideProject/comments/1t70m6a/built_a_free_tool_to_measure_how_often_ai_search/"
 published: "2026-05-08T07:19:06+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: monetize
+takeaway: "解决AI搜索品牌提及度测量的真实痛点，展示indie dev从0到1的实际思考过程"
 ---
 
 # Built a free tool to measure how often AI search engines mention your brand. 3 months in, not sure if it’s a real product or just an interesting research project.

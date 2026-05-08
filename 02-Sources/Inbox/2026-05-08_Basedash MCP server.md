@@ -3,9 +3,11 @@ source: "Product Hunt"
 title: "Basedash MCP server"
 url: "https://www.producthunt.com/products/basedash"
 published: "2026-05-06T15:31:59-07:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Basedash MCP Server将数据分析能力集成到AI工具中，Agent应用的实用基础设施"
 ---
 
 # Basedash MCP server

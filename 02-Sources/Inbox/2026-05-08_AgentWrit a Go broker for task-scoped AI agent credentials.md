@@ -3,9 +3,11 @@ source: "Hacker News AI"
 title: "AgentWrit, a Go broker for task-scoped AI agent credentials"
 url: "https://github.com/devonartis/agentwrit"
 published: "Thu, 07 May 2026 13:24:06 +0000"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: agent
+takeaway: "Go实现的AI Agent凭证管理方案，任务级隔离，但热度低需验证实用性"
 ---
 
 # AgentWrit, a Go broker for task-scoped AI agent credentials

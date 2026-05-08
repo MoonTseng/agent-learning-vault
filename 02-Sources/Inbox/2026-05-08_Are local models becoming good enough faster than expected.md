@@ -3,9 +3,11 @@ source: "r/LocalLLaMA"
 title: "Are local models becoming “good enough” faster than expected?"
 url: "https://www.reddit.com/r/LocalLLaMA/comments/1t6p0zk/are_local_models_becoming_good_enough_faster_than/"
 published: "2026-05-07T22:04:25+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: research
+takeaway: "本地模型性能加速突破，日常工作流无需云模型，影响AI应用架构和成本"
 ---
 
 # Are local models becoming “good enough” faster than expected?

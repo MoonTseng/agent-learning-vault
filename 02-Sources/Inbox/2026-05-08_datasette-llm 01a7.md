@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "datasette-llm 0.1a7"
 url: "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything"
 published: "2026-05-05T01:56:55+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Datasette-llm 新增模型默认配置机制，LLM工具链逐步完善"
 ---
 
 # datasette-llm 0.1a7

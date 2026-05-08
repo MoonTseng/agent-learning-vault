@@ -3,9 +3,11 @@ source: "Android Developers Blog"
 title: "Android CLI and skills - Build Android apps 3x faster using any agent"
 url: "https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html"
 published: "2026-04-16T10:00:00.000-07:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Google官方发布Android CLI工具，支持Agent直接构建应用，开发效率提升3倍。"
 ---
 
 # Android CLI and skills - Build Android apps 3x faster using any agent

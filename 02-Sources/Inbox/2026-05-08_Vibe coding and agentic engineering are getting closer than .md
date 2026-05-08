@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "Vibe coding and agentic engineering are getting closer than I'd like"
 url: "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything"
 published: "2026-05-06T14:24:08+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: agent
+takeaway: "Simon Willison揭示vibe coding与agentic engineering趋同现象，深度反思AI编程范式变化"
 ---
 
 # Vibe coding and agentic engineering are getting closer than I'd like

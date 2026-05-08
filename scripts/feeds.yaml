@@ -1,4 +1,5 @@
 # Brain RSS Feed Subscriptions
+# 只保留 AI / Agent / AI 个人变现 相关
 # Used by scripts/rss_scan.py
 
 feeds:
@@ -7,12 +8,16 @@ feeds:
     feed_url: https://simonwillison.net/atom/everything/
     category: ai-agent
 
-  - name: Anthropic Research
-    feed_url: https://www.anthropic.com/research/rss.xml
+  - name: Anthropic News
+    feed_url: https://www.anthropic.com/news/rss.xml
     category: ai-agent
 
-  - name: Hacker News AI
+  - name: Hacker News AI Agent
     feed_url: https://hnrss.org/newest?q=AI+agent
+    category: ai-agent
+
+  - name: Hacker News LLM
+    feed_url: https://hnrss.org/newest?q=LLM
     category: ai-agent
 
   - name: r/LocalLLaMA
@@ -27,37 +32,36 @@ feeds:
     feed_url: https://karpathy.ai/feed.xml
     category: ai-agent
 
-  # === 移动端 + AI ===
-  - name: Android Developers Blog
-    feed_url: https://android-developers.googleblog.com/atom.xml
-    category: mobile
-
-  - name: Flutter Medium
-    feed_url: https://medium.com/feed/flutter
-    category: mobile
-
-  # === 独立开发 / 变现 ===
+  # === AI 个人变现 / 独立开发 ===
   - name: Indie Hackers
     feed_url: https://www.indiehackers.com/feed.xml
-    category: indie-dev
+    category: ai-monetize
 
   - name: r/SideProject
     feed_url: https://www.reddit.com/r/SideProject/.rss
-    category: indie-dev
+    category: ai-monetize
 
-  - name: Product Hunt
+  - name: Product Hunt AI
     feed_url: https://www.producthunt.com/feed?category=artificial-intelligence
-    category: indie-dev
+    category: ai-monetize
 
-  # === 中文 ===
-  - name: 少数派
-    feed_url: https://sspai.com/feed
-    category: chinese
+  - name: Hacker News Show HN
+    feed_url: https://hnrss.org/show
+    category: ai-monetize
 
+  - name: Ben's Bites (AI newsletter)
+    feed_url: https://bensbites.beehiiv.com/feed
+    category: ai-monetize
+
+  # === 中文 AI ===
   - name: 机器之心
     feed_url: https://www.jiqizhixin.com/rss/explore
-    category: chinese
+    category: chinese-ai
 
-  - name: InfoQ AI
+  - name: 量子位
+    feed_url: https://www.qbitai.com/feed
+    category: chinese-ai
+
+  - name: InfoQ AI 中文
     feed_url: https://www.infoq.cn/feed
-    category: chinese
+    category: chinese-ai

@@ -3,9 +3,11 @@ source: "Android Developers Blog"
 title: "Experimental hybrid inference and new Gemini models for Android"
 url: "https://android-developers.googleblog.com/2026/04/Hybrid-inference-and-new-AI-models-are-coming-to-Android.html"
 published: "2026-04-17T13:00:00.000-07:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: research
+takeaway: "Google混合推理技术降低Android端侧AI成本，新Gemini模型扩展移动应用场景"
 ---
 
 # Experimental hybrid inference and new Gemini models for Android

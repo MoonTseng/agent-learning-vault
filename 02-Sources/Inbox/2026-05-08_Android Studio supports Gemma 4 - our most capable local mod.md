@@ -3,9 +3,11 @@ source: "Android Developers Blog"
 title: "Android Studio supports Gemma 4 - our most capable local model for agentic coding"
 url: "https://android-developers.googleblog.com/2026/04/android-studio-supports-gemma-4-local.html"
 published: "2026-04-02T07:00:00.003-07:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Gemma 4本地模型集成Android Studio，支持agentic编码工作流，提升开发效率"
 ---
 
 # Android Studio supports Gemma 4 - our most capable local model for agentic coding

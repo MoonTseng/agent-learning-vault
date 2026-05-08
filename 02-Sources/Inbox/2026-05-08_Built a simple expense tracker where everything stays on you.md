@@ -3,9 +3,11 @@ source: "r/SideProject"
 title: "Built a simple expense tracker where everything stays on your device"
 url: "https://www.reddit.com/r/SideProject/comments/1t72buy/built_a_simple_expense_tracker_where_everything/"
 published: "2026-05-08T08:58:29+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: monetize
+takeaway: "本地优先的记账app，有变现潜力但缺乏独特竞争力的常见副业方向"
 ---
 
 # Built a simple expense tracker where everything stays on your device

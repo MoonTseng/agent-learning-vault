@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "LLM 0.32a0  is a major backwards-compatible refactor"
 url: "https://simonwillison.net/2026/Apr/29/llm/#atom-everything"
 published: "2026-04-29T19:01:47+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "Simon Willison LLM库重构，从prompt-response范式升级，indie开发者必关注"
 ---
 
 # LLM 0.32a0  is a major backwards-compatible refactor

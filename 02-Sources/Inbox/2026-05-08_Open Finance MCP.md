@@ -3,9 +3,11 @@ source: "Product Hunt"
 title: "Open Finance MCP"
 url: "https://www.producthunt.com/products/open-finance-mcp"
 published: "2026-04-30T15:27:51-07:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: tool
+takeaway: "MCP协议实际应用案例，银行数据接入Claude/ChatGPT，Agent变现新方向"
 ---
 
 # Open Finance MCP

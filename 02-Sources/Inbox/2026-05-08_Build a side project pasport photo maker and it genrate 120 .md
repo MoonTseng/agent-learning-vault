@@ -3,9 +3,11 @@ source: "r/SideProject"
 title: "Build a side project pasport photo maker and it genrate 120 in a month"
 url: "https://www.reddit.com/r/SideProject/comments/1t6upxj/build_a_side_project_pasport_photo_maker_and_it/"
 published: "2026-05-08T02:15:28+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: monetize
+takeaway: "护照照片SaaS月入$120，展示计算机视觉+搜索优化的副业变现案例"
 ---
 
 # Build a side project pasport photo maker and it genrate 120 in a month

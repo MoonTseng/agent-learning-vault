@@ -3,9 +3,11 @@ source: "Simon Willison"
 title: "Our AI started a cafe in Stockholm"
 url: "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything"
 published: "2026-05-05T22:14:21+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: news
+takeaway: "AI Agent实际应用案例：自主运营咖啡馆，有趣但缺乏深度技术洞察"
 ---
 
 # Our AI started a cafe in Stockholm

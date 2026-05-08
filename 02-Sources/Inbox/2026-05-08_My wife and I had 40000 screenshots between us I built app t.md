@@ -3,9 +3,11 @@ source: "r/SideProject"
 title: "My wife and I had 40,000 screenshots between us. I built app to change how we save things. One month on, it's the most opened app on both our phones and has 3000+ downloads."
 url: "https://www.reddit.com/r/SideProject/comments/1t6dpei/my_wife_and_i_had_40000_screenshots_between_us_i/"
 published: "2026-05-07T15:21:55+00:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: monetize
+takeaway: "真实indie dev案例，从痛点到产品到增长，具体可复制的副业思路。"
 ---
 
 # My wife and I had 40,000 screenshots between us. I built app to change how we save things. One month on, it's the most opened app on both our phones and has 3000+ downloads.

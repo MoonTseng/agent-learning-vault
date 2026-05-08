@@ -3,9 +3,11 @@ source: "r/SideProject"
 title: "I built a public journal for builders to think out loud!"
 url: "https://www.reddit.com/r/SideProject/comments/1t6zv4u/i_built_a_public_journal_for_builders_to_think/"
 published: "2026-05-08T06:37:26+00:00"
-score: 5
+score: 3
 ingested: "2026-05-08"
 status: unread
+tag: monetize
+takeaway: "Indie dev分享通过公开日志获得反馈和共鸣的经验，有启发但缺乏技术深度"
 ---
 
 # I built a public journal for builders to think out loud!

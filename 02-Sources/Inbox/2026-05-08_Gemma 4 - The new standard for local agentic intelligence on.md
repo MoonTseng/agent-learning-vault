@@ -3,9 +3,11 @@ source: "Android Developers Blog"
 title: "Gemma 4 - The new standard for local agentic intelligence on Android"
 url: "https://android-developers.googleblog.com/2026/04/gemma-4-new-standard-for-local-agentic-intelligence.html"
 published: "2026-04-02T07:00:00.001-07:00"
-score: 5
+score: 4
 ingested: "2026-05-08"
 status: unread
+tag: agent
+takeaway: "Google Gemma 4支持本地Agent能力，适配Android生态，对独立开发者有实用价值"
 ---
 
 # Gemma 4 - The new standard for local agentic intelligence on Android
