@@ -1,0 +1,29 @@
+# Obsidian workspace state (不同步，免得冲突)
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# 本地临时
+*.tmp
+*.swp
+*~
+.vscode/
+.idea/
+
+# 敏感
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# 大文件（主动 archive 的走 LFS 或外部）
+*.mp4
+*.mov
+*.zip
