@@ -1,18 +1,26 @@
 ---
 type: daily
-date: 
+date: "{{date:YYYY-MM-DD}}"
 ---
 
-# {{date}}
+# {{date:YYYY-MM-DD}}
+
+## 学习记录
+
+> 光标放在这里，执行 `Templates: Insert template`，选择 `learning-session`。
 
 ## 今天学到 / 记下
-- 
 
-## 今天 ship 了什么
-- 
+-
 
-## 今天 Inbox 里值得看的
-（自动填充或手动）
+## 今天完成的 Artifact / Eval
+
+-
+
+## Inbox 候选
+
+-
 
 ## 明天
-- 
+
+-

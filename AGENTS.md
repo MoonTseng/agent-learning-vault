@@ -70,6 +70,13 @@ Allowed progression:
 - Never overwrite, delete, or bulk-move human notes without explicit instruction.
 - When Agent output conflicts with human notes, preserve both and create a review item.
 
+### Learning-session correction
+
+- Raw recall answers, uncertainty, and mistakes live under `06-Daily/`.
+- Preserve the original answer; append assessment, correction, and evidence.
+- Only verified conclusions may be proposed for `03-Notes/`.
+- Never silently rewrite a human answer or advance maturity without required evidence.
+
 ### Cross-Agent compatibility
 
 - Markdown and YAML frontmatter are system of record.

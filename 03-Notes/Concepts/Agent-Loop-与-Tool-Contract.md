@@ -59,6 +59,17 @@ tags:
 
 Agent 不是一段 Prompt。Agent 是模型决策、状态、工具执行、终止条件、错误处理和观测共同组成的系统。
 
+## 学习记录
+
+闭卷回答和纠错写入当天 `06-Daily`，并链接本笔记。下面自动展示相关记录：
+
+```dataview
+LIST
+FROM "06-Daily"
+WHERE contains(file.outlinks, this.file.link)
+SORT file.name DESC
+```
+
 ## 下一步
 
 手写 calculator 工具 schema，并定义 4 个失败用例。

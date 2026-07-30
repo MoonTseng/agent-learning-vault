@@ -49,6 +49,15 @@ tags: [ai-agent, learning]
 2.
 3.
 
+## 学习记录
+
+```dataview
+LIST
+FROM "06-Daily"
+WHERE contains(file.outlinks, this.file.link)
+SORT file.name DESC
+```
+
 ## 下一步
 
 只写一个可执行动作：

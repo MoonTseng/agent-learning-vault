@@ -19,7 +19,7 @@ updated: 2026-07-30
 
 - [[05-Ideas/00-Pipeline|Ideas Pipeline]] — idea 从萌芽到上线
 - `04-Projects/` — 当前进行中的项目
-- `06-Daily/` — 日志
+- [[06-Daily/README|学习记录与纠错]] — 闭卷回答、纠错和回写 SOP
 
 ---
 

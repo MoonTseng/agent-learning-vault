@@ -25,6 +25,16 @@ Agent 工程学习知识库模板。基于 Obsidian、纯 Markdown 和跨 Agent 
 4. 从 `Next` 选择符合当前时间的任务。
 5. 首个试点：`03-Notes/Concepts/Agent-Loop-与-Tool-Contract.md`。
 
+### 记录一次学习
+
+1. 在 Obsidian 执行 `Daily notes: Open today's daily note`。
+2. 当天日记会自动创建到 `06-Daily/YYYY-MM-DD.md`。
+3. 在“学习记录”下插入 `_templates/learning-session.md`。
+4. 先写闭卷回答；校验后保留原回答，在下方追加纠正。
+5. 只把验证后的结论回写 `03-Notes/`；代码、Trace、Eval 写入 `04-Projects/agent-labs/`。
+
+详细 SOP：`06-Daily/README.md`。
+
 路线图提供：
 
 - `Next`：下一学习动作。
