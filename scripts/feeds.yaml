@@ -1,8 +1,21 @@
-# Brain RSS Feed Subscriptions
+# Agent Learning Vault RSS Feed Subscriptions
 # 只保留 AI / Agent / AI 个人变现 相关
 # Used by scripts/rss_scan.py
 
 feeds:
+  # === Agent 官方更新（只进 Inbox） ===
+  - name: OpenAI News
+    feed_url: https://openai.com/news/rss.xml
+    category: agent-official
+
+  - name: A2A Releases
+    feed_url: https://github.com/a2aproject/A2A/releases.atom
+    category: agent-protocol
+
+  - name: OWASP GenAI Security
+    feed_url: https://genai.owasp.org/feed/
+    category: agent-security
+
   # === AI Agent / LLM 前沿 ===
   - name: Simon Willison
     feed_url: https://simonwillison.net/atom/everything/
