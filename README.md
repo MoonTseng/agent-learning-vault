@@ -1,6 +1,6 @@
 # Agent Learning Vault 🧭
 
-面向在职工程师的 Agent 工程学习知识库模板。基于 Obsidian、纯 Markdown 和跨 Agent 维护协议。
+ Agent 工程学习知识库模板。基于 Obsidian、纯 Markdown 和跨 Agent 维护协议。
 
 ## 它解决什么
 
