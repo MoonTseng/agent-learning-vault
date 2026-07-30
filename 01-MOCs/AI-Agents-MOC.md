@@ -1,12 +1,17 @@
 ---
 type: moc
 title: AI Agents
-updated: 2026-05-07
+updated: 2026-07-30
 ---
 
 # AI Agents MOC 🤖
 
 我对 AI agent 生态的持续跟踪。重点：for 移动端开发，但不限于。
+
+## 系统学习
+
+- [[Agent-Learning-Roadmap]] — 九模块能力路线、碎片任务、复习和作品证据
+- [[03-Notes/Concepts/Agent-Loop-与-Tool-Contract]] — 当前 M1 试点
 
 ## 我在用的 Agent
 

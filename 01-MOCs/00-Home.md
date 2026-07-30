@@ -1,7 +1,7 @@
 ---
 type: moc
 title: Home
-updated: 2026-05-08
+updated: 2026-07-30
 ---
 
 # Home 🏠
@@ -10,6 +10,7 @@ updated: 2026-05-08
 
 ## 主题地图
 
+- [[Agent-Learning-Roadmap]] — Agent 工程学习、复习、实践证据
 - [[AI-Agents-MOC]] — AI agent、skill、MCP、框架
 - [[Mobile-Dev-AI-MOC]] — Android / Flutter 里用 AI 加速开发
 - [[Monetization-MOC]] — 独立开发赚钱、vibe coding、公众号

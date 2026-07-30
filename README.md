@@ -2,6 +2,36 @@
 
 MoonTseng 的个人 Agent 工程学习知识库。Obsidian vault + Codex/Hermes 等 Agent 读写。
 
+## 它解决什么
+
+普通资料库解决“保存在哪里”。Agent Learning Vault 继续解决：
+
+1. **现在学什么**：路线图按 10/25/60 分钟展示下一任务。
+2. **是否真正掌握**：知识按 `seed → practiced → demonstrated → teachable` 晋升。
+3. **哪些内容过期**：用 `last-verified`、`review-after`、`volatility` 管理变化。
+4. **面试能证明什么**：代码、Trace、Eval、Threat Model 汇总为作品证据。
+
+```text
+官方源 → Inbox 候选 → 验证/实验 → 正式笔记 → Lab/Eval → 复习与作品
+```
+
+自动化只负责发现，不直接覆盖正式知识。
+
+## 开始使用
+
+1. 用 Obsidian 打开 vault。
+2. 启用 Dataview；需要模板时启用 Templater。
+3. 打开 `01-MOCs/Agent-Learning-Roadmap.md`。
+4. 从 `Next` 选择符合当前时间的任务。
+5. 首个试点：`03-Notes/Concepts/Agent-Loop-与-Tool-Contract.md`。
+
+路线图提供：
+
+- `Next`：下一学习动作。
+- `Due`：需要复习的知识。
+- `Stale`：需要重验的高波动知识。
+- `Portfolio`：已有 Artifact 和 Eval 的求职证据。
+
 ## 目录约定
 
 ```
@@ -23,17 +53,20 @@ _templates/     新建笔记用模板
 _attachments/   图片等
 ```
 
-## 工作流
+## 运行节奏
 
-- 每天 cronjob 扫订阅源，> 7 分的写入 `02-Sources/Inbox/`
-- 周末人工精读 Inbox，有价值的改写成 `03-Notes/` 下原子笔记
-- idea 从 `05-Ideas/Seeds/` 出发，走 pipeline，Killed 必写 kill reason
-- 每月 skill 体检：扫 Skills/ 里 `last-verified` > 90 天的，让 agent 查最新版本
+- 每日：cron 扫官方源，高分候选写入 `02-Sources/Inbox/`。
+- 每周：处理 breaking、安全、Eval 变化；完成一个最小实验。
+- 每月：处理 `review-after`，重验高波动笔记。
+- 每季度：按目标岗位和实践结果调整路线。
 
-## 用 Hermes 查询
+阅读不能直接标记掌握。正式知识必须有一手来源；`demonstrated` 必须有 Artifact 和 Eval。
 
-直接问：「vault 里有没有 xxx 的笔记？」
-Hermes 会用 obsidian skill 的 search_files 搜。
+## 查询知识
+
+直接问 Agent：「vault 里有没有 xxx 的笔记？」
+
+Agent 应先读 `AGENTS.md`，再搜索 MOC、Notes 和 Projects。
 
 ## 用任意 Agent 维护
 
@@ -44,6 +77,12 @@ Codex 为当前主用 Agent；Hermes、Claude Code、OpenCode 可按同一协议
 3. 验证后的原创知识写 `03-Notes/`。
 4. 学习证据写 `04-Projects/agent-labs/`。
 5. 不用某个 Agent 私有数据库承载 canonical knowledge。
+
+## 设计资料
+
+- `docs/superpowers/specs/2026-07-30-personal-agent-knowledge-vault-design.md`
+- `docs/superpowers/plans/2026-07-30-personal-agent-knowledge-vault.md`
+- `research/agent-learning-landscape-2026.md`
 
 ## 不放进 vault 的东西
 
