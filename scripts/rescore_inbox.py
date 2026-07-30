@@ -23,11 +23,11 @@ ARCHIVE_NOISE = ROOT / "99-Archive/noise-2026-05"
 ARCHIVE_LOW.mkdir(parents=True, exist_ok=True)
 ARCHIVE_NOISE.mkdir(parents=True, exist_ok=True)
 
-API_KEY = os.environ.get("ANTHROPIC_API_KEY", "019cb8392e8b7c51953cea1ccfa305d5")
+API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 MODEL = "claude-haiku-4-5"
 API_URL = os.environ.get(
     "ANTHROPIC_API_URL",
-    "http://deepseek-work.intsig.net/proxy/aws/claude/anthropic/v1/messages",
+    "https://api.anthropic.com/v1/messages",
 )
 
 PROMPT_TMPL = """你是一个 AI 技术/创业内容的评审员。用户 Ray 的兴趣：
@@ -160,7 +160,15 @@ def process(path: Path, idx: int, total: int):
     return {"score": score, "tag": tag, "title": title}
 
 
+def require_api_key() -> None:
+    if not API_KEY:
+        raise SystemExit(
+            "ANTHROPIC_API_KEY is required. Export it in shell or load it from ignored local config."
+        )
+
+
 def main():
+    require_api_key()
     files = sorted(INBOX.glob("*.md"))
     # skip daily notes
     files = [f for f in files if not re.match(r"^\d{4}-\d{2}-\d{2}\.md$", f.name)]

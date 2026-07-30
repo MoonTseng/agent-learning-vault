@@ -17,10 +17,13 @@ Icon?
 .idea/
 .venv/
 .rss_state.json
+__pycache__/
+*.py[cod]
 
 # 敏感
 .env
 .env.*
+!.env.example
 *.key
 *.pem
 secrets/
