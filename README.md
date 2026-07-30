@@ -35,6 +35,16 @@ _attachments/   图片等
 直接问：「brain 里有没有 xxx 的笔记？」
 Hermes 会用 obsidian skill 的 search_files 搜。
 
+## 用任意 Agent 维护
+
+Codex 为当前主用 Agent；Hermes、Claude Code、OpenCode 可按同一协议维护。
+
+1. 先读根目录 `AGENTS.md`。
+2. 自动抓取只写 `02-Sources/Inbox/`。
+3. 验证后的原创知识写 `03-Notes/`。
+4. 学习证据写 `04-Projects/agent-labs/`。
+5. 不用某个 Agent 私有数据库承载 canonical knowledge。
+
 ## 不放进 vault 的东西
 
 - 密钥、token、客户敏感信息

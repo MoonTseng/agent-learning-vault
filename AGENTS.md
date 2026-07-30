@@ -37,3 +37,41 @@ Correction: 展示进程前脱敏参数；公开仓库前执行密钥扫描并�
 - 进程输出只展示 PID、CPU、RSS、进程名；禁止展示完整参数。
 - 日志、配置、环境变量、URL 查询参数进入对话或笔记前必须脱敏。
 - 发现硬编码凭证时，不复制值；记录文件位置，要求删除并轮换。
+
+## Vault Content Contract
+
+### Source boundary
+
+- Automatic fetches write only to `02-Sources/Inbox/`.
+- Inbox content is unverified source material, not canonical knowledge.
+- Canonical knowledge lives under `03-Notes/` and requires primary source, verification date, and review date.
+
+### Learning maturity
+
+Allowed progression:
+
+`seed → practiced → demonstrated → teachable`
+
+- New Agent-generated learning notes start at `seed`.
+- Reading or summarizing cannot advance maturity.
+- `practiced` requires an experiment or retrieval exercise.
+- `demonstrated` requires linked artifact and eval evidence.
+- `teachable` requires boundaries, failure cases, and trade-offs.
+
+### Human ownership
+
+- Human-authored notes are user data.
+- Never overwrite, delete, or bulk-move human notes without explicit instruction.
+- When Agent output conflicts with human notes, preserve both and create a review item.
+
+### Cross-Agent compatibility
+
+- Markdown and YAML frontmatter are system of record.
+- Provider-specific commands stay optional.
+- Codex, Hermes, Claude Code, and OpenCode must produce compatible fields.
+- Read this file before modifying vault content.
+
+### Privacy
+
+- Never store credentials, company-confidential code, customer data, internal endpoints, or unredacted private traces.
+- Public examples use synthetic data.
