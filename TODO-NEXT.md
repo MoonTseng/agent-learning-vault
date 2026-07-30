@@ -15,7 +15,7 @@
 2. `seed → practiced → demonstrated → teachable` 成熟度规则
 3. Next、Due、Stale、Portfolio Dataview 看板
 4. RSS Discovery 脚本和官方 Watchlist
-5. Codex 每周 Discovery + Review、每月 Verification 自动化
+5. Codex 工作日 Discovery + Review、每月 Verification 自动化
 6. 跨 Agent Markdown 内容协议与资源预检规则
 
 ## 下一步

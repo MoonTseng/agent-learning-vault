@@ -237,7 +237,7 @@ Dashboard also displays module progression and current weekly focus. Queries mus
 
 | Cadence | Action |
 |---|---|
-| Weekly automatic | Codex runs RSS Discovery and prepares a Review |
+| Weekday automatic | Codex runs RSS Discovery and prepares a Review |
 | Weekly, 20 minutes | Human reviews breaking, security, and evaluation deltas |
 | Monthly, 60 minutes | Process due reviews and rerun high-volatility examples |
 | Quarterly | Reweight roadmap using practice results and target-role signals |

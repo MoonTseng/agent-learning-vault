@@ -55,7 +55,7 @@ _attachments/   图片等
 
 ## Codex 自动化
 
-- 每周日 20:00：合并执行 RSS Discovery 与学习 Review，给出最多 5 个候选和下一动作。
+- 工作日 20:00：合并执行 RSS Discovery 与学习 Review，给出最多 5 个候选和下一动作。
 - 每月 1 日 20:30：检查 `review-after` 与高波动知识，输出重验建议。
 
 自动化先读取 `AGENTS.md`。它可以发现、筛选和提出修改建议，但不能自动晋升知识成熟度。
@@ -64,7 +64,8 @@ _attachments/   图片等
 
 ## 运行节奏
 
-- 每周：Codex 扫官方源，处理 breaking、安全、Eval 变化；完成一个最小实验。
+- 工作日：Codex 扫官方源，处理 breaking、安全、Eval 变化。
+- 每周：完成一个最小实验。
 - 每月：处理 `review-after`，重验高波动笔记。
 - 每季度：按目标岗位和实践结果调整路线。
 
