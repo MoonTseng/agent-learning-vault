@@ -1,6 +1,6 @@
 # Agent Learning Vault 🧭
 
-MoonTseng 的个人 Agent 工程学习知识库。Obsidian vault + Codex/Hermes 等 Agent 读写。
+面向在职工程师的 Agent 工程学习知识库模板。基于 Obsidian、纯 Markdown 和跨 Agent 维护协议。
 
 ## 它解决什么
 
@@ -39,7 +39,7 @@ MoonTseng 的个人 Agent 工程学习知识库。Obsidian vault + Codex/Hermes 
 02-Sources/     原始信息
   Inbox/        自动抓取的 raw，待分拣
   Blogs/        已归档的原文摘录
-03-Notes/       我自己的原子笔记（真思考产出）
+03-Notes/       验证后的原子笔记（解释、边界、实验、证据）
   Skills/       AI agent skill 一页一个
   MCPs/         MCP server 一页一个
   Agents/       Hermes / Claude Code / Codex / OpenCode 等
@@ -88,4 +88,4 @@ Codex 为当前主用 Agent；Hermes、Claude Code、OpenCode 可按同一协议
 
 - 密钥、token、客户敏感信息
 - 大体积二进制（> 10MB 的视频/数据集，用 git-lfs 或外部链接）
-- 公司（INTSIG）未公开项目的源码片段
+- 公司或客户未公开项目的源码片段

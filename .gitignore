@@ -19,6 +19,9 @@ Icon?
 .rss_state.json
 __pycache__/
 *.py[cod]
+.claude/
+.obsidian/community-plugins.json
+.obsidian/plugins/
 
 # 敏感
 .env
