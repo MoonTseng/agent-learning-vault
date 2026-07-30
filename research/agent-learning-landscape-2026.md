@@ -534,7 +534,7 @@ flowchart TD
 | [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub) | 单页路线、todo、项目与资料导航 | 缺少个人进度状态、复习调度、可运行证据和知识更新治理 |
 | [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction) | Fundamentals、frameworks、use cases、GAIA final assignment，带 quiz | 课程型体验；不承担个人长期知识图、职业证据和持续版本维护 |
 | [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 多课时、代码、视频，覆盖 tool use、RAG、trust、planning、multi-agent、protocol、context、memory | 内容完整但偏课程和 Microsoft 技术栈；不是 Obsidian 个人学习 runtime |
-| 当前 `brain` | RSS scoring、Inbox、MOC、原子笔记、skill/MCP health、idea pipeline | 已有“系统”雏形，但缺能力图、学习任务队列、eval 证据和公开边界 |
+| 当前 `Agent Learning Vault` | RSS scoring、Inbox、MOC、原子笔记、skill/MCP health、idea pipeline | 已有“系统”雏形，但缺能力图、学习任务队列、eval 证据和公开边界 |
 
 这次是有限扫描，不能证明市场上绝对不存在同类项目。能成立的谨慎判断是：**本次扫描未发现一个同时把 Obsidian、碎片任务、官方源更新、可运行 eval 证据和求职作品图整合起来的成熟开源仓库。** 这组组合能力可作为差异化假设，后续仍需用用户访谈、GitHub 搜索和实际留存验证。
 
@@ -552,7 +552,7 @@ agent-learning-os/          # 公共
   watchers/
   docs/
 
-brain-private/              # 私有
+agent-learning-vault-private/  # 私有
   工作日志
   个人复盘
   公司上下文

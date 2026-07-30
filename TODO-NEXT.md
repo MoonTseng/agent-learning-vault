@@ -1,17 +1,18 @@
-# Brain vault — 状态追踪
+# Agent Learning Vault — 状态追踪
 
 上下文快照（2026-05-08）：
-- vault 本地搭好：~/Project/brain/，已推送 GitHub (MoonTseng/brain)
+- vault 本地目录暂保留：`~/Project/brain/`
+- GitHub：`MoonTseng/agent-learning-vault`
 - git 身份：MoonTseng <MoonTseng@users.noreply.github.com>
 - Python RSS scanner 替代 blogwatcher-cli（.venv + feedparser）
 - 14 个订阅源配置在 scripts/feeds.yaml
 - 首次扫描完成：235 篇文章入库 02-Sources/Inbox/
-- Hermes cronjob 已配置：
+- Hermes cronjob 已配置（保留旧任务标识，避免中断现有调度）：
   - brain-daily-rss-scan (每日 08:00)：no_agent 脚本模式
   - brain-weekly-digest (每周日 20:00)：LLM 总结周报
 
 ## ✅ 已完成
-1. ✅ brain 仓库 local git 身份配置（MoonTseng + noreply email）
+1. ✅ vault 仓库 local git 身份配置（MoonTseng + noreply email）
 2. ✅ 历史 commit 改写为新身份 + force push
 3. ✅ RSS 扫描方案落地（Python 脚本，支持代理）
 4. ✅ 14 源订阅 + 首次扫描

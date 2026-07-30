@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Brain vault RSS scanner.
+Agent Learning Vault RSS scanner.
 Fetches all subscribed feeds, scores articles with LLM, writes high-score ones to Inbox.
 
 Usage:
@@ -52,7 +52,7 @@ def needs_proxy(url: str) -> bool:
 
 def fetch_feed(feed_url: str) -> feedparser.FeedParserDict:
     """Fetch and parse an RSS/Atom feed."""
-    headers = {"User-Agent": "Mozilla/5.0 (brain-rss-scanner/1.0)"}
+    headers = {"User-Agent": "Mozilla/5.0 (agent-learning-vault-rss/1.0)"}
     proxies = {"http": PROXY, "https": PROXY} if needs_proxy(feed_url) else None
 
     try:
@@ -154,7 +154,7 @@ def load_feeds() -> list:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Brain RSS scanner")
+    parser = argparse.ArgumentParser(description="Agent Learning Vault RSS scanner")
     parser.add_argument("--dry-run", action="store_true", help="Print but don't write")
     parser.add_argument("--no-llm", action="store_true", help="Skip LLM scoring")
     args = parser.parse_args()

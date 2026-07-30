@@ -16,7 +16,7 @@ from pathlib import Path
 import urllib.request
 import urllib.error
 
-ROOT = Path(os.path.expanduser("~/Project/brain"))
+ROOT = Path(__file__).resolve().parent.parent
 INBOX = ROOT / "02-Sources/Inbox"
 ARCHIVE_LOW = ROOT / "99-Archive/low-score-2026-05"
 ARCHIVE_NOISE = ROOT / "99-Archive/noise-2026-05"

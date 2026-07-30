@@ -1,6 +1,6 @@
-# Brain 🧠
+# Agent Learning Vault 🧭
 
-yue_zeng / MoonTseng 的个人知识库。Obsidian vault + Hermes Agent 读写。
+MoonTseng 的个人 Agent 工程学习知识库。Obsidian vault + Codex/Hermes 等 Agent 读写。
 
 ## 目录约定
 
@@ -32,7 +32,7 @@ _attachments/   图片等
 
 ## 用 Hermes 查询
 
-直接问：「brain 里有没有 xxx 的笔记？」
+直接问：「vault 里有没有 xxx 的笔记？」
 Hermes 会用 obsidian skill 的 search_files 搜。
 
 ## 用任意 Agent 维护

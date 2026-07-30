@@ -6,7 +6,7 @@ updated: 2026-05-08
 
 # Home 🏠
 
-整个 brain 的入口 + Inbox 清理面板。
+整个 Agent Learning Vault 的入口 + Inbox 清理面板。
 
 ## 主题地图
 
