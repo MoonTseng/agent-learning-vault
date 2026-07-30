@@ -20,7 +20,10 @@ recall-prompts:
   - 模型、Harness、工具执行器分别负责什么？
   - Agent Loop 必须具备哪些停止条件？
   - 为什么工具结果也属于不可信输入？
-tags: [ai-agent, tool-use, learning]
+tags:
+  - ai-agent
+  - tool-use
+  - learning
 ---
 
 # Agent Loop 与 Tool Contract
