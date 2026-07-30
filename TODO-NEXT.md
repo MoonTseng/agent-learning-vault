@@ -1,27 +1,27 @@
 # Agent Learning Vault — 状态追踪
 
-上下文快照（2026-05-08）：
-- vault 本地目录暂保留：`~/Project/brain/`
+上下文快照（2026-07-30）：
+
+- Vault 本地目录：`~/Project/brain/`
 - GitHub：`MoonTseng/agent-learning-vault`
-- git 身份：MoonTseng <MoonTseng@users.noreply.github.com>
-- Python RSS scanner 替代 blogwatcher-cli（.venv + feedparser）
-- 14 个订阅源配置在 scripts/feeds.yaml
-- 首次扫描完成：235 篇文章入库 02-Sources/Inbox/
-- Hermes cronjob 已配置（保留旧任务标识，避免中断现有调度）：
-  - brain-daily-rss-scan (每日 08:00)：no_agent 脚本模式
-  - brain-weekly-digest (每周日 20:00)：LLM 总结周报
+- 默认执行端：Codex
+- 18 个订阅源配置在 `scripts/feeds.yaml`
+- RSS 原始候选只进入 `02-Sources/Inbox/`
+- 正式知识、实验和求职证据分别进入 `03-Notes/`、`04-Projects/agent-labs/`
 
-## ✅ 已完成
-1. ✅ vault 仓库 local git 身份配置（MoonTseng + noreply email）
-2. ✅ 历史 commit 改写为新身份 + force push
-3. ✅ RSS 扫描方案落地（Python 脚本，支持代理）
-4. ✅ 14 源订阅 + 首次扫描
-5. ✅ 每日 RSS cronjob
-6. ✅ 每周周报 cronjob
+## 已完成
 
-## 🔜 下一步可做
-1. ollama 跑起来后，去掉 --no-llm，启用 LLM 评分（SCORE_THRESHOLD=7 过滤噪音）
-2. 手动往 05-Ideas/Seeds/ 放几个 idea 笔记，让周报有内容可报
-3. 探索 Obsidian 模板联动（在 Obsidian 中打开 vault、配 Dataview 查看 Inbox）
-4. 加更多订阅源（个人博客、Newsletter 等）
-5. 实现 "Inbox → Notes 归档" 流程（读完标记 → 移入 03-Notes/ 对应子目录）
+1. Agent Learning Roadmap 与 10/25/60 分钟学习协议
+2. `seed → practiced → demonstrated → teachable` 成熟度规则
+3. Next、Due、Stale、Portfolio Dataview 看板
+4. RSS Discovery 脚本和官方 Watchlist
+5. Codex 每周 Discovery + Review、每月 Verification 自动化
+6. 跨 Agent Markdown 内容协议与资源预检规则
+
+## 下一步
+
+1. 在 Obsidian 打开 `01-MOCs/Agent-Learning-Roadmap.md`，确认 Dataview 正常渲染。
+2. 完成 M1 当前动作：calculator 工具 Schema 和四个失败用例。
+3. 把 M1 证据写入 `04-Projects/agent-labs/m1-tool-loop/`。
+4. 根据实验结果更新 `artifact`、`eval`、`review-after` 和 `next-action`。
+5. 首次 Codex Discovery 运行后检查 RSS 代理、Inbox 数量和 YAML frontmatter。

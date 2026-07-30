@@ -1,6 +1,6 @@
 # Agent Learning Vault 🧭
 
- Agent 工程学习知识库模板。基于 Obsidian、纯 Markdown 和跨 Agent 维护协议。
+Agent 工程学习知识库模板。基于 Obsidian、纯 Markdown 和跨 Agent 维护协议。
 
 ## 它解决什么
 
@@ -42,7 +42,7 @@
 03-Notes/       验证后的原子笔记（解释、边界、实验、证据）
   Skills/       AI agent skill 一页一个
   MCPs/         MCP server 一页一个
-  Agents/       Hermes / Claude Code / Codex / OpenCode 等
+  Agents/       Codex / Claude Code / OpenCode 等
   Mobile-AI/    Android / Flutter 里怎么用 AI
   Concepts/     Context Engineering / Harness / RAG / Tool Use …
 04-Projects/    短期项目（PARA 的 P）
@@ -53,10 +53,18 @@ _templates/     新建笔记用模板
 _attachments/   图片等
 ```
 
+## Codex 自动化
+
+- 每周日 20:00：合并执行 RSS Discovery 与学习 Review，给出最多 5 个候选和下一动作。
+- 每月 1 日 20:30：检查 `review-after` 与高波动知识，输出重验建议。
+
+自动化先读取 `AGENTS.md`。它可以发现、筛选和提出修改建议，但不能自动晋升知识成熟度。
+
+这些任务保存在本机 Codex 自动化配置中，不随仓库克隆，也不提交凭证或机器路径。其他使用者需要在自己的 Codex 项目中按上述节奏创建任务。
+
 ## 运行节奏
 
-- 每日：cron 扫官方源，高分候选写入 `02-Sources/Inbox/`。
-- 每周：处理 breaking、安全、Eval 变化；完成一个最小实验。
+- 每周：Codex 扫官方源，处理 breaking、安全、Eval 变化；完成一个最小实验。
 - 每月：处理 `review-after`，重验高波动笔记。
 - 每季度：按目标岗位和实践结果调整路线。
 
@@ -68,9 +76,9 @@ _attachments/   图片等
 
 Agent 应先读 `AGENTS.md`，再搜索 MOC、Notes 和 Projects。
 
-## 用任意 Agent 维护
+## 用 Codex 维护
 
-Codex 为当前主用 Agent；Hermes、Claude Code、OpenCode 可按同一协议维护。
+Codex 是默认执行端。Claude Code、OpenCode 等工具仍可按同一 Markdown 协议维护。
 
 1. 先读根目录 `AGENTS.md`。
 2. 自动抓取只写 `02-Sources/Inbox/`。

@@ -1,6 +1,6 @@
 # Agent Rules
 
-本文件约束所有维护此 vault 的 Agent，包括 Codex、Hermes、Claude Code、OpenCode。
+本文件约束所有维护此 vault 的 Agent。Codex 是默认执行端；其他工具必须遵循同一内容协议。
 
 ## LEARNED
 
@@ -74,7 +74,7 @@ Allowed progression:
 
 - Markdown and YAML frontmatter are system of record.
 - Provider-specific commands stay optional.
-- Codex, Hermes, Claude Code, and OpenCode must produce compatible fields.
+- Codex, Claude Code, and OpenCode must produce compatible fields.
 - Read this file before modifying vault content.
 
 ### Privacy

@@ -15,7 +15,6 @@ updated: 2026-07-30
 
 ## 我在用的 Agent
 
-- [[03-Notes/Agents/hermes-agent|Hermes Agent]] — 本地主 agent，tool calling + skill 系统
 - [[03-Notes/Agents/claude-code|Claude Code]] — 代码任务为主
 - [[03-Notes/Agents/codex|Codex]]
 - [[03-Notes/Agents/opencode|OpenCode]]

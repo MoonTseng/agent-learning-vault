@@ -28,7 +28,7 @@ This design evolves current vault. It does not replace directory structure or im
 ## 2. Goals
 
 1. Build personal Agent knowledge repository inside current Obsidian vault.
-2. Make Codex primary maintainer while keeping Markdown compatible with Hermes, Claude Code, and OpenCode.
+2. Make Codex primary maintainer while keeping Markdown compatible with Claude Code and OpenCode.
 3. Organize Agent knowledge by capability prerequisites instead of framework popularity.
 4. Support 10-, 25-, and 60-minute learning sessions.
 5. Separate automatically discovered material from verified canonical knowledge.
@@ -55,7 +55,7 @@ Current MOC, Sources, Notes, Projects, and Daily separation remains authoritativ
 
 ### 4.2 Markdown is system of record
 
-Canonical state lives in Markdown frontmatter and files. No Agent-specific database becomes required. Codex, Hermes, Claude Code, and OpenCode may provide different interfaces, but must read and write same schema.
+Canonical state lives in Markdown frontmatter and files. No Agent-specific database becomes required. Codex, Claude Code, and OpenCode may provide different interfaces, but must read and write same schema.
 
 ### 4.3 Automatic discovery stops at Inbox
 
@@ -91,7 +91,7 @@ Reuse:
 - Existing Obsidian structure.
 - Dataview dashboards.
 - Templater note creation.
-- Existing RSS scanner and cron schedule.
+- Existing RSS scanner and low-frequency Codex automations.
 - Proven learning mechanisms: retrieval practice, spaced review, gap tracking, source promotion.
 
 Do not adopt:
@@ -237,8 +237,8 @@ Dashboard also displays module progression and current weekly focus. Queries mus
 
 | Cadence | Action |
 |---|---|
-| Daily automatic | Existing RSS scanner writes candidates to Inbox |
-| Weekly, 20 minutes | Review breaking, security, and evaluation deltas |
+| Weekly automatic | Codex runs RSS Discovery and prepares a Review |
+| Weekly, 20 minutes | Human reviews breaking, security, and evaluation deltas |
 | Monthly, 60 minutes | Process due reviews and rerun high-volatility examples |
 | Quarterly | Reweight roadmap using practice results and target-role signals |
 | Event-triggered | Review protocol breaking changes or severe security notices |

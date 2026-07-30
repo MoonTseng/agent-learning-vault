@@ -123,14 +123,22 @@ def write_inbox_note(entry, source_name: str, score: int = 0):
     filename = f"{date_str}_{safe_title}.md"
     filepath = INBOX_DIR / filename
 
+    frontmatter = yaml.safe_dump(
+        {
+            "source": source_name,
+            "title": title,
+            "url": link,
+            "published": published,
+            "score": score,
+            "ingested": date_str,
+            "status": "unread",
+        },
+        allow_unicode=True,
+        sort_keys=False,
+    ).rstrip()
+
     content = f"""---
-source: "{source_name}"
-title: "{title}"
-url: "{link}"
-published: "{published}"
-score: {score}
-ingested: "{date_str}"
-status: unread
+{frontmatter}
 ---
 
 # {title}

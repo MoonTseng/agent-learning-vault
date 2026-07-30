@@ -4,7 +4,7 @@
 
 **Goal:** Turn current Obsidian vault into a Codex-first, provider-neutral personal Agent learning repository with roadmap, fragmented-time tasks, knowledge promotion, review, evidence, and recurring official-source discovery.
 
-**Architecture:** Keep current MOC → Sources → Notes → Projects flow. Markdown frontmatter remains system of record; Dataview renders learning state; existing RSS scanner writes only to Inbox; `AGENTS.md` defines same behavior for Codex, Hermes, Claude Code, and OpenCode.
+**Architecture:** Keep current MOC → Sources → Notes → Projects flow. Markdown frontmatter remains system of record; Dataview renders learning state; existing RSS scanner writes only to Inbox; `AGENTS.md` defines same behavior for Codex, Claude Code, and OpenCode.
 
 **Tech Stack:** Obsidian Markdown, YAML frontmatter, Dataview DQL, Templater-compatible templates, existing Python RSS scanner, Git.
 
@@ -204,7 +204,7 @@ Allowed progression:
 
 - Markdown and YAML frontmatter are system of record.
 - Provider-specific commands stay optional.
-- Codex, Hermes, Claude Code, and OpenCode must produce compatible fields.
+- Codex, Claude Code, and OpenCode must produce compatible fields.
 - Read this file before modifying vault content.
 
 ### Privacy
@@ -220,7 +220,7 @@ Insert before `## 不放进 vault 的东西`:
 ```markdown
 ## 用任意 Agent 维护
 
-Codex 为当前主用 Agent；Hermes、Claude Code、OpenCode 可按同一协议维护。
+Codex 为当前主用 Agent；Claude Code、OpenCode 可按同一协议维护。
 
 1. 先读根目录 `AGENTS.md`。
 2. 自动抓取只写 `02-Sources/Inbox/`。
@@ -235,14 +235,14 @@ Run:
 
 ```bash
 rg -n '^## (Vault Content Contract|Resource Preflight|Safe Diagnostics)' AGENTS.md
-rg -n 'Codex|Hermes|Claude Code|OpenCode' AGENTS.md README.md
+rg -n 'Codex|Claude Code|OpenCode' AGENTS.md README.md
 git diff --check -- AGENTS.md README.md '03-Notes/Concepts/Codex-MCP-内存峰值与索引预检.md'
 ```
 
 Expected:
 
 - Three required `AGENTS.md` sections found.
-- Four Agent names found.
+- Three Agent names found.
 - No whitespace errors.
 
 - [ ] **Step 4: Commit contract and incident lesson**
