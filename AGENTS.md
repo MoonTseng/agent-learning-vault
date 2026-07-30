@@ -22,6 +22,12 @@ Mistake: `ps` 完整命令可能暴露 MCP token。
 
 Correction: 展示进程前脱敏参数；公开仓库前执行密钥扫描并轮换已暴露凭证。
 
+[LEARN] Testing: zsh 脚本禁止把 `path` 用作循环或普通变量。
+
+Mistake: `for path in ...` 覆盖 zsh 特殊数组 `$path`，使后续 `rg`、`git` 无法从 `$PATH` 找到。
+
+Correction: 使用 `required_file` 等任务变量；验证脚本启用 `set -e`，失败后重跑未执行检查。
+
 ## Resource Preflight
 
 执行索引、并行 Agent、批量抓取前：
