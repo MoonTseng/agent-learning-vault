@@ -1,0 +1,15 @@
+---
+source: OpenAI News
+title: Sora is here
+url: https://openai.com/index/sora-is-here
+published: Mon, 09 Dec 2024 10:00:00 GMT
+score: 5
+ingested: '2026-07-31'
+status: unread
+---
+
+# Sora is here
+
+> Source: [OpenAI News](https://openai.com/index/sora-is-here)
+
+Our video generation model, Sora, is now available to use at sora.com. Users can generate videos up to 1080p resolution, up to 20 sec long, and in widescreen, vertical or square aspect ratios. You can bring your own assets to extend, remix, and blend, or generate entirely new content from text.
