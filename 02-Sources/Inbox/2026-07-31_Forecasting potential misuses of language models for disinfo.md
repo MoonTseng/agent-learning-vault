@@ -6,9 +6,12 @@ url: https://openai.com/index/forecasting-misuse
 published: Wed, 11 Jan 2023 08:00:00 GMT
 score: 5
 ingested: '2026-07-31'
-status: unread
+status: highlight
+triage-score: 10
+triage-module: M5
+triage-reason: official source; agent-official; security, threat, auth; rss score
+triage-next-action: '25 分钟: 映射控制点。'
 ---
-
 # Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk
 
 > Source: [OpenAI News](https://openai.com/index/forecasting-misuse)

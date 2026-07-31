@@ -145,7 +145,9 @@ def process(path: Path, idx: int, total: int):
     fm["score"] = str(score)
     fm["tag"] = tag
     fm["takeaway"] = f'"{takeaway}"'
-    
+    if score >= 4:
+        fm["status"] = "highlight"
+
     new_content = dump_frontmatter(fm) + "\n" + body
     path.write_text(new_content)
     

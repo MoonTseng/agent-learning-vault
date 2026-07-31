@@ -49,6 +49,16 @@ WHERE type = "learning-node" AND contains(list("demonstrated", "teachable"), mat
 SORT module ASC
 ```
 
+### Inbox Shortlist
+
+```dataview
+TABLE triage-score AS "分数", triage-module AS "模块", triage-next-action AS "下一步", takeaway AS "一句话"
+FROM "02-Sources/Inbox"
+WHERE status = "highlight" AND triage-score
+SORT triage-score DESC, file.mtime DESC
+LIMIT 10
+```
+
 ## 能力路线
 
 | 模块 | 能力 | 晋升证据 |

@@ -110,7 +110,7 @@ Reply with ONLY a number 1-10, nothing else."""
         return 5
 
 
-def write_inbox_note(entry, source_name: str, score: int = 0):
+def write_inbox_note(entry, source_name: str, category: str = "", score: int = 0):
     """Write an article as a markdown note in Inbox."""
     title = entry.get("title", "Untitled").replace("/", "-").replace(":", " -")
     link = entry.get("link", "")
@@ -126,6 +126,7 @@ def write_inbox_note(entry, source_name: str, score: int = 0):
     frontmatter = yaml.safe_dump(
         {
             "source": source_name,
+            "category": category,
             "title": title,
             "url": link,
             "published": published,
@@ -210,7 +211,7 @@ def main():
 
             if score >= SCORE_THRESHOLD or args.no_llm:
                 if not args.dry_run:
-                    path = write_inbox_note(entry, name, score)
+                    path = write_inbox_note(entry, name, feed_cfg.get("category", ""), score)
                     print(f"    [+] ({score}/10) {title[:50]}")
                 else:
                     print(f"    [DRY] ({score}/10) {title[:50]}")
